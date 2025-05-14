@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://patient-dashboard7.netlify.app',
         changeOrigin: true,
       },
     },
